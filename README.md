@@ -10,6 +10,7 @@ This Discord AI bot will read all the images in chat and predict whether the han
 > Bot Permissions: View Channels, Send Messages, Attach Files
 > or administrator (Easy way)
 
+> and don't forget to copy token in bot menu
 2. Put your bot token here.
 ``` python
 bot.run(" CHANGE THIS TO YOUR BOT TOKEN :-D ")
