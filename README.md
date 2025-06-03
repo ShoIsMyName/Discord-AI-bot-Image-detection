@@ -6,7 +6,11 @@ This Discord AI bot will read all the images in chat and predict whether the han
 ## How to use 📕
 1. Create your discord bot
 # Link: https://discord.com/developers/applications
-3. Put your bot token here.
+> make sure u enable Message Content Intent at bot menu
+> Bot Permissions: View Channels, Send Messages, Attach Files
+> or administrator (Easy way)
+
+2. Put your bot token here.
 ``` python
 bot.run(" CHANGE THIS TO YOUR BOT TOKEN :-D ")
 ```
