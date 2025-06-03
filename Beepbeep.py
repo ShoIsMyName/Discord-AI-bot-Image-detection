@@ -33,7 +33,7 @@ async def on_message(message):
                 await message.channel.send("Processing...")
 
                 # Start predict
-                model = YOLO('runs/detect/train/weights/best.pt')
+                model = YOLO('weights/best.pt')
                 img = cv2.imread(filename)
 
                 results = model(img, verbose=False)[0]
