@@ -21,6 +21,10 @@ bot.run(" CHANGE THIS TO YOUR BOT TOKEN :-D ")
 ```bash
 python -m venv YOUR_ENVIRONMENT_NAME
 ```
+### Enable in your Environment (get in to env)
+```bash
+YOUR_ENVRIONMENT_NAME\Scripts\activate
+```
 ### Install Require Library
 ```bash
 pip install aiosqlite asyncio discord.py opencv-python ultralytics
